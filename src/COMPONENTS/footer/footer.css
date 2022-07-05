@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    height: 20vh;
+    background: orange;
+    justify-content: center;
+  position: relative;  
+    border: 1px solid;
+    border-radius: 50px 0px 50px 0px;
+}
+.footer>span{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ficon>img{
+    width: 50px;
+    height: 50px;
+}
+.ficon{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+@media screen and (max-width: 450px) {
+    .footer{
+        margin-top: 15rem;
+        height: 9rem;
+    }
+    
+}

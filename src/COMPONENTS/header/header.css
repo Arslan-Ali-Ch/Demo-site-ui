@@ -1,0 +1,77 @@
+.main{
+    padding: 10px;
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+  }
+  .left{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    color: rgb(26, 26, 23);
+    font-size: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(43, 43, 39);
+    font-size: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  .list{
+    flex: 1;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .list>ul{
+    display: flex;
+    gap: 6rem;
+    list-style: none;
+    
+  }
+  .list>ul>li{
+    
+    padding: 5px;
+  }
+  .list>ul>li:hover{
+    color: rgb(10, 214, 221);
+  }
+  .button{
+    border-radius: 20px;
+    height: 45px;
+    width: 9rem;
+    margin-left: 60px;
+    background-color: rgb(24, 21, 21);
+    box-shadow: 2px 2px 14px 0px yellow;
+    color: yellow;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  .button:hover{
+    color:rgb(24, 21, 21) ;
+    background-color: white;
+    border: 5px solid yellow;
+  }
+  @media screen and (max-width: 480px) {
+    .main{
+      border: 1px solid;
+    }
+    .right{
+      display: none;
+    }
+    .left{ 
+    border: 2px solid;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+    }
+    
+  }

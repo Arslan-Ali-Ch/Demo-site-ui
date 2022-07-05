@@ -1,0 +1,81 @@
+.port2{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    position: relative;
+}
+.divspan{
+    display: flex;
+justify-content: center;
+gap: 1rem;
+}
+.tsp{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.divspan span:nth-of-type(2){
+    color: orange;
+}
+.testimonial{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding: 2rem;
+    width: 40rem;
+    height: 20rem;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid rgb(169, 203, 216);
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 20px gainsboro;
+    
+}
+.testimonial>img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    
+.tsp{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.testimonial>img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
+.testimonial{
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
+    width: 35rem;
+    height: 35rem;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid rgb(169, 203, 216);
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 20px gainsboro;
+    
+} 
+}

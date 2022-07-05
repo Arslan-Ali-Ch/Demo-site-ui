@@ -1,0 +1,165 @@
+.intro{
+    margin-top: 5rem;
+    display: flex;
+    height: 82vh;
+    justify-content: space-between;
+   
+  }
+  .ileft{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    gap: 3rem;
+  }
+  .itext{
+    text-align: start;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .itext>:nth-child(1){
+    font-size: 4rem;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .itext>:nth-child(2){
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .itext>:nth-child(3){
+    font-size: 1.2rem;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .ibutton{
+    height: 3rem;
+    width: 10rem;
+  }
+  .licon{
+    margin-top: 5rem;
+    display: flex;
+    gap: 2rem;
+
+  }
+  .licon>*{
+    width: 5rem;
+    height: 5rem;
+    transform: scale(0.6);
+  }
+  .licon>img:hover{
+    cursor:crosshair;
+    width: 6rem;
+    height: 6rem;
+    transition: 0.3s;
+    
+  }
+  .iright{
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+  
+  .iright>img{
+    margin-bottom: 200px;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+  
+  }
+  .dev{
+    display: flex;
+    position: absolute;
+    width: 11rem;
+    height: 4rem;
+    border-radius: 10px;
+    top: 20px;
+    right: 26px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 2px 3px 5px 1px rgb(155, 151, 151);
+    gap: 2;
+  }
+  .dev>img{
+    margin-left: 5px;
+    align-self: center;
+    width: 2rem;
+    height: 2rem;
+  }
+  .dev>span{
+    align-self: center;
+    margin-left: 6px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+  .dev2{
+    display: flex;
+    position: absolute;
+    width: 11rem;
+    height: 4rem;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 2px 3px 5px 1px rgb(155, 151, 151);
+   
+    border-radius: 10px;
+    bottom: 170px;
+    right: 26px;
+    gap: 2;
+  }
+  .dev2>img{
+    margin-left: 5px;
+    align-self: center;
+    width: 2rem;
+    height: 2rem;
+    
+  }
+  .dev2>span{
+    align-self: center;
+    margin-left: 6px;
+    color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+  .dev3{
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    top: 14px;
+    left: 26px;
+    gap: 2;
+  }
+  .dev3>img{
+    margin-left: 5px;
+    align-self: center;
+    width: 4rem;
+    height: 4rem;
+  }
+@media screen and (max-width: 480px){
+
+  .intro{
+    flex-direction: column;
+  }
+  .iright{
+    margin-top: 3rem;
+  }
+  .licon{
+    margin-top: 1rem;
+  }
+  .iright{
+    transform: scale(0.8);
+  }
+  .dev{
+    right: -40px;
+    top: -40px;
+  }
+  .dev2{
+    bottom: 150px;
+  }
+  .dev3{
+    left: 5px;
+  }
+}
